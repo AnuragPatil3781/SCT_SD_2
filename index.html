@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Number Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>🎮 MYSTERY NUMBER QUEST</h1>
+            <div class="difficulty-badge">LEVEL: BEGINNER</div>
+        </div>
+        
+        <div class="game-board">
+            <div class="crystal-ball">
+                <div class="mystery-number">?</div>
+                <div class="range-hint">1 - 100</div>
+            </div>
+            
+            <div class="quest-panel">
+                <div class="message-box">
+                    <div id="gameMessage" class="game-message">
+                        🔮 The crystal ball holds a secret number... Can you unlock it?
+                    </div>
+                </div>
+                
+                <div class="input-area">
+                    <div class="input-wrapper">
+                        <input type="number" id="guessInput" placeholder="Enter your guess..." min="1" max="100" class="guess-input">
+                        <button id="submitGuess" class="quest-btn">🚀 LAUNCH GUESS</button>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">⚡</div>
+                        <div class="stat-label">Attempts</div>
+                        <div id="attempts" class="stat-value">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🏆</div>
+                        <div class="stat-label">Best Score</div>
+                        <div id="bestScore" class="stat-value">-</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-label">Victories</div>
+                        <div id="gamesWon" class="stat-value">0</div>
+                    </div>
+                </div>
+                
+                <button id="newGame" class="new-quest-btn" style="display: none;">🔄 NEW QUEST</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
