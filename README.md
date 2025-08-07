@@ -51,11 +51,8 @@ To run this project locally:
 ---
 
 ## 📸 Screenshot
+<img width="1340" height="848" alt="image" src="https://github.com/user-attachments/assets/7e63800e-9c1c-483f-accf-ebcea0ade8b9" />
 
-*(Optional — insert a screenshot of the game UI here)*
-
-```
-![Game Screenshot](screenshot.png)
 ```
 
 ---
